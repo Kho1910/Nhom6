@@ -39,4 +39,4 @@ def json_search(key, input_object, role=None):
                     json_search(key, val, role)
                 )
 
-    return ret_val
+    return ret_val 
